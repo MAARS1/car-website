@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car</title>
+</head><center><header style="background-color: greenyellow;height: 20%;"><table><tr>
+    <td style="width: 25%;"><a href="home.html">HOME</a></td>
+    <td style="width: 25%;"><a href="about.html">ABOUT</a></td>
+    <td style="width: 25%;"><a href="product.html">PRODUCT</a>
+    <td style="width: 35%;"><button shape="circle" onclick="myfunction()"> <b>BUY</b><input type="image" src="o1.jfif" alt="click" width="70px">
+    </button>
+    </td>
+</tr></table>
+</header></center><br><br><center>
+<body style="background-color: bisque; font-size: 20px;">
+    
+    <div><img src="o1.jfif"><br><br>
+    <table style="width: 300px;" border="2">
+        <tr>
+        <th>Fetures</th>
+        <th>Detail</th>
+    </tr>
+
+    <tr>
+        <th>colour</th>
+        <th>Blue</th>
+    </tr>
+    <tr>
+        <th>Engine</th>
+        <th>Manmade Engine</th>
+    </tr>
+    <tr>
+        <th>Cost</th>
+        <th>3,00,00,000</th>
+    </tr></table></div>
+    
+
+    <script>
+        const car={name:"ROOLS ROYS", type:"PHANTOM", model:"GHOST",colour:"BLUE"}
+        
+        function myfunction(){
+            var a= confirm("BUY CAR");
+           
+            
+            if(a==true){
+                alert("yes");
+            }
+            else{
+                alert("no");
+            }
+             var b= prompt("Mail id");
+             if (a==true){
+                alert("Mail id:"+b);
+             }
+            
+        }
+        
+
+
+    </script>
+    
+</body></center>
+</html>

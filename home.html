@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car</title>
+</head><center><header style="background-color: greenyellow;height: 20%;"><table><tr>
+    <td style="width: 35%;"><a href="home.html">HOME</a></td>
+    <td style="width: 35%;"><a href="about.html">ABOUT</a></td>
+    <td style="width: 35%;"><a href="product.html">PRODUCT</a>
+    <td style="width: 35%;"><button shape="circle" onclick="myfunction()"> <b>BUY</b><input type="image" src="o1.jfif" alt="click" width="70px">
+    </button>
+    </td>
+</tr></table>
+</header><br><br>
+<body style="background-color: bisque; font-size: 20px;">
+    <img src="blue.jfif"  width="60%" height="200px">
+    <div></div>
+    <p id="demo">
+
+    </p><script>
+        const car={name:"ROOLS ROYS", type:"PHANTOM", model:"GHOST",colour:"BLUE"}
+        document.getElementById("demo").innerHTML="NAME OF THE CAR :  "  
+        + car.name+"<br>TYPE OF THE CAR : "+car.type+"<br>COLOUR OF THE CAR : "+car.colour;</script><script>
+        function myfunction(){
+            var a= confirm("BUY CAR");
+           
+            
+            if(a==true){
+                alert("yes");
+            }
+            else{
+                alert("no");
+            }
+             var b= prompt("Mail id");
+            alert("Mail id:"+b);
+        }
+        
+
+
+    </script>
+    
+</body></center>
+</html>
